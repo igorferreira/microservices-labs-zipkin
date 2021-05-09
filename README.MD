@@ -16,6 +16,10 @@ Usei o docker para subir a interface:
 docker run -d -p 9411:9411 openzipkin/zipkin
 ```
 
+## Teste
+![zipkin-apps-call](zipkin-apps-call.png)
+
+
 ## Dashboard
 
 ### Trace
