@@ -2,6 +2,10 @@
 
 Teste de springboot com zipkin
 
+## Links
+
+[zipkin quickstart](https://zipkin.io/pages/quickstart)
+
 ## Cenario
 
 O Microservico 1 chama o 2 que chama o 3 e finaliza.
