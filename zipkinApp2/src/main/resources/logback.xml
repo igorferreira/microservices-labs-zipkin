@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<configuration>
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+
+	    <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+	      <!-- Example with replacement for secret masking -->
+	      <pattern>%magenta(%d{yyyy-MM-dd HH:mm:ss} [%13.13thread]) %red(${PID:- }) %cyan(%-5level %logger{39}.%M\(%line\)) : %replace(%m){'(secret:)[^\s]*','$1--'}%n%xEx</pattern>
+	    </encoder>
+
+    </appender>
+
+    <appender name="FILEOUT" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logs/zipkin2.log</file>
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <Pattern>
+                %d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36}.%M\(%line\) - %m%n
+            </Pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>logs/archived/zipkin2.%d{yyyy-MM-dd}.%i.log
+            </fileNamePattern>
+            <timeBasedFileNamingAndTriggeringPolicy
+                class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>10MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+        </rollingPolicy>
+    </appender>
+
+    <appender name="ASYNC_STDOUT" class="ch.qos.logback.classic.AsyncAppender">
+        <appender-ref ref="STDOUT"/>
+        <includeCallerData>true</includeCallerData>
+    </appender>
+
+    <appender name="ASYNC_FILEOUT" class="ch.qos.logback.classic.AsyncAppender">
+        <appender-ref ref="FILEOUT"/>
+        <includeCallerData>true</includeCallerData>
+    </appender>
+
+     <logger name="br.com.isfconsult." level="info" additivity="false">
+        <appender-ref ref="ASYNC_STDOUT" />
+        <appender-ref ref="ASYNC_FILEOUT" />
+    </logger>
+
+    <root level="info">
+        <appender-ref ref="ASYNC_STDOUT" />
+        <appender-ref ref="ASYNC_FILEOUT" />
+    </root>
+
+</configuration>

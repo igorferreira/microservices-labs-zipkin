@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ZipkinApp1Application<zipkinApp1>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "br.com.isfconsult.labs.zipkin.zipkinapp1.ZipkinApp1Application",
+            "projectName": "zipkinApp1",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ZipkinApp2Application<zipkinApp2>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "br.com.isfconsult.labs.zipkin.zipkinapp2.ZipkinApp2Application",
+            "projectName": "zipkinApp2",
+            "args": ""
+        }
+    ]
+}

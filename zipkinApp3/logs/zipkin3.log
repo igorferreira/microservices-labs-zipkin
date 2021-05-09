@@ -1,0 +1,84 @@
+2021-05-08 21:39:14 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo(225) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-08 21:39:15 [restartedMain] INFO  b.c.i.l.z.z.ZipkinApp3Application.logStartupProfileInfo(648) - No active profile set, falling back to default profiles: default
+2021-05-08 21:39:15 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope.setSerializationId(295) - BeanFactory id=427d33c7-b736-3232-94df-4ec47147bcd5
+2021-05-08 21:39:16 [restartedMain] WARN  io.undertow.websockets.jsr.handleDeployment(68) - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-05-08 21:39:16 [restartedMain] INFO  io.undertow.servlet.log(371) - Initializing Spring embedded WebApplicationContext
+2021-05-08 21:39:16 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext(285) - Root WebApplicationContext: initialization completed in 1414 ms
+2021-05-08 21:39:17 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize(181) - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-08 21:39:17 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer.startServer(61) - Unable to start LiveReload server
+2021-05-08 21:39:17 [restartedMain] INFO  io.undertow.start(117) - starting server: Undertow - 2.1.7.Final
+2021-05-08 21:39:17 [restartedMain] INFO  org.xnio.<clinit>(95) - XNIO version 3.8.0.Final
+2021-05-08 21:39:17 [restartedMain] INFO  org.xnio.nio.<clinit>(59) - XNIO NIO Implementation Version 3.8.0.Final
+2021-05-08 21:39:17 [restartedMain] INFO  org.jboss.threads.<clinit>(52) - JBoss Threads version 3.1.0.Final
+2021-05-08 21:39:17 [restartedMain] INFO  o.s.b.w.e.undertow.UndertowWebServer.start(133) - Undertow started on port(s) 8083 (http)
+2021-05-08 21:39:17 [restartedMain] INFO  b.c.i.l.z.z.ZipkinApp3Application.logStarted(61) - Started ZipkinApp3Application in 3.747 seconds (JVM running for 5.015)
+2021-05-08 21:40:33 [XNIO-1 task-1] INFO  io.undertow.servlet.log(371) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-08 21:40:33 [XNIO-1 task-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean(525) - Initializing Servlet 'dispatcherServlet'
+2021-05-08 21:40:33 [XNIO-1 task-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean(547) - Completed initialization in 18 ms
+2021-05-08 21:40:33 [XNIO-1 task-1] INFO  b.c.i.l.z.z.ZipkinApp3Controller.zipkinService3(19) - Inside zipkinService 3.. finish
+2021-05-08 21:41:17 [XNIO-1 task-1] INFO  b.c.i.l.z.z.ZipkinApp3Controller.zipkinService3(19) - Inside zipkinService 3.. finish
+2021-05-08 21:42:38 [Thread-3] INFO  io.undertow.stop(252) - stopping server: Undertow - 2.1.7.Final
+2021-05-08 21:42:38 [Thread-3] INFO  io.undertow.servlet.log(371) - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-05-08 21:42:38 [Thread-3] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown(218) - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-08 21:42:38 [restartedMain] INFO  b.c.i.l.z.z.ZipkinApp3Application.logStartupProfileInfo(648) - No active profile set, falling back to default profiles: default
+2021-05-08 21:42:39 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope.setSerializationId(295) - BeanFactory id=427d33c7-b736-3232-94df-4ec47147bcd5
+2021-05-08 21:42:39 [restartedMain] WARN  io.undertow.websockets.jsr.handleDeployment(68) - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-05-08 21:42:39 [restartedMain] INFO  io.undertow.servlet.log(371) - Initializing Spring embedded WebApplicationContext
+2021-05-08 21:42:39 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext(285) - Root WebApplicationContext: initialization completed in 412 ms
+2021-05-08 21:42:39 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize(181) - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-08 21:42:39 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer.startServer(61) - Unable to start LiveReload server
+2021-05-08 21:42:40 [restartedMain] INFO  io.undertow.start(117) - starting server: Undertow - 2.1.7.Final
+2021-05-08 21:42:40 [restartedMain] INFO  o.s.b.w.e.undertow.UndertowWebServer.start(133) - Undertow started on port(s) 8083 (http)
+2021-05-08 21:42:40 [restartedMain] INFO  b.c.i.l.z.z.ZipkinApp3Application.logStarted(61) - Started ZipkinApp3Application in 1.533 seconds (JVM running for 207.176)
+2021-05-08 21:42:40 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent(63) - Condition evaluation unchanged
+2021-05-08 21:43:10 [XNIO-2 task-1] INFO  io.undertow.servlet.log(371) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-08 21:43:10 [XNIO-2 task-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean(525) - Initializing Servlet 'dispatcherServlet'
+2021-05-08 21:43:10 [XNIO-2 task-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean(547) - Completed initialization in 9 ms
+2021-05-08 21:43:10 [XNIO-2 task-1] INFO  b.c.i.l.z.z.ZipkinApp3Controller.zipkinService3(19) - Inside zipkinService 3.. finish
+2021-05-08 21:43:46 [Thread-14] INFO  io.undertow.stop(252) - stopping server: Undertow - 2.1.7.Final
+2021-05-08 21:43:46 [Thread-14] INFO  io.undertow.servlet.log(371) - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-05-08 21:43:46 [Thread-14] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown(218) - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-08 21:43:47 [restartedMain] INFO  b.c.i.l.z.z.ZipkinApp3Application.logStartupProfileInfo(648) - No active profile set, falling back to default profiles: default
+2021-05-08 21:43:47 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope.setSerializationId(295) - BeanFactory id=427d33c7-b736-3232-94df-4ec47147bcd5
+2021-05-08 21:43:47 [restartedMain] WARN  io.undertow.websockets.jsr.handleDeployment(68) - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-05-08 21:43:47 [restartedMain] INFO  io.undertow.servlet.log(371) - Initializing Spring embedded WebApplicationContext
+2021-05-08 21:43:47 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext(285) - Root WebApplicationContext: initialization completed in 411 ms
+2021-05-08 21:43:48 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize(181) - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-08 21:43:48 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer.startServer(61) - Unable to start LiveReload server
+2021-05-08 21:43:48 [restartedMain] INFO  io.undertow.start(117) - starting server: Undertow - 2.1.7.Final
+2021-05-08 21:43:48 [restartedMain] INFO  o.s.b.w.e.undertow.UndertowWebServer.start(133) - Undertow started on port(s) 8083 (http)
+2021-05-08 21:43:48 [restartedMain] INFO  b.c.i.l.z.z.ZipkinApp3Application.logStarted(61) - Started ZipkinApp3Application in 1.391 seconds (JVM running for 275.59)
+2021-05-08 21:43:48 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent(63) - Condition evaluation unchanged
+2021-05-08 21:43:58 [XNIO-3 task-1] INFO  io.undertow.servlet.log(371) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-08 21:43:58 [XNIO-3 task-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean(525) - Initializing Servlet 'dispatcherServlet'
+2021-05-08 21:43:58 [XNIO-3 task-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean(547) - Completed initialization in 8 ms
+2021-05-08 21:43:58 [XNIO-3 task-1] INFO  b.c.i.l.z.z.ZipkinApp3Controller.zipkinService3(19) - Inside zipkinService 3.. finish
+2021-05-08 21:45:16 [RMI TCP Connection(19)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown(159) - Application shutdown requested.
+2021-05-08 21:45:16 [RMI TCP Connection(19)-127.0.0.1] INFO  io.undertow.stop(252) - stopping server: Undertow - 2.1.7.Final
+2021-05-08 21:45:16 [RMI TCP Connection(19)-127.0.0.1] INFO  io.undertow.servlet.log(371) - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-05-08 21:45:16 [RMI TCP Connection(19)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown(218) - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-08 21:49:53 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo(225) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-08 21:49:54 [restartedMain] INFO  b.c.i.l.z.z.ZipkinApp3Application.logStartupProfileInfo(648) - No active profile set, falling back to default profiles: default
+2021-05-08 21:49:55 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope.setSerializationId(295) - BeanFactory id=0ad6c58b-4eb3-3a66-8514-3b5fee54e2ba
+2021-05-08 21:49:56 [restartedMain] WARN  io.undertow.websockets.jsr.handleDeployment(68) - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-05-08 21:49:56 [restartedMain] INFO  io.undertow.servlet.log(371) - Initializing Spring embedded WebApplicationContext
+2021-05-08 21:49:56 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext(285) - Root WebApplicationContext: initialization completed in 1950 ms
+2021-05-08 21:49:57 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize(181) - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-08 21:49:57 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer.startServer(61) - Unable to start LiveReload server
+2021-05-08 21:49:57 [restartedMain] INFO  io.undertow.start(117) - starting server: Undertow - 2.1.7.Final
+2021-05-08 21:49:57 [restartedMain] INFO  org.xnio.<clinit>(95) - XNIO version 3.8.0.Final
+2021-05-08 21:49:57 [restartedMain] INFO  org.xnio.nio.<clinit>(59) - XNIO NIO Implementation Version 3.8.0.Final
+2021-05-08 21:49:57 [restartedMain] INFO  org.jboss.threads.<clinit>(52) - JBoss Threads version 3.1.0.Final
+2021-05-08 21:49:57 [restartedMain] INFO  o.s.b.w.e.undertow.UndertowWebServer.start(133) - Undertow started on port(s) 8083 (http)
+2021-05-08 21:49:57 [restartedMain] INFO  b.c.i.l.z.z.ZipkinApp3Application.logStarted(61) - Started ZipkinApp3Application in 4.788 seconds (JVM running for 6.321)
+2021-05-08 21:50:08 [XNIO-1 task-1] INFO  io.undertow.servlet.log(371) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-08 21:50:08 [XNIO-1 task-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean(525) - Initializing Servlet 'dispatcherServlet'
+2021-05-08 21:50:08 [XNIO-1 task-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean(547) - Completed initialization in 14 ms
+2021-05-08 21:50:08 [XNIO-1 task-1] INFO  b.c.i.l.z.z.ZipkinApp3Controller.zipkinService3(19) - Inside zipkinService 3.. finish
+2021-05-08 21:50:15 [XNIO-1 task-1] INFO  b.c.i.l.z.z.ZipkinApp3Controller.zipkinService3(19) - Inside zipkinService 3.. finish
+2021-05-08 21:50:23 [XNIO-1 task-1] INFO  b.c.i.l.z.z.ZipkinApp3Controller.zipkinService3(19) - Inside zipkinService 3.. finish
+2021-05-08 21:51:43 [XNIO-1 task-1] INFO  b.c.i.l.z.z.ZipkinApp3Controller.zipkinService3(19) - Inside zipkinService 3.. finish
+2021-05-08 21:52:04 [XNIO-1 task-1] INFO  b.c.i.l.z.z.ZipkinApp3Controller.zipkinService3(19) - Inside zipkinService 3.. finish
+2021-05-08 21:52:44 [SpringContextShutdownHook] INFO  io.undertow.stop(252) - stopping server: Undertow - 2.1.7.Final
+2021-05-08 21:52:44 [SpringContextShutdownHook] INFO  io.undertow.servlet.log(371) - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-05-08 21:52:44 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown(218) - Shutting down ExecutorService 'applicationTaskExecutor'
